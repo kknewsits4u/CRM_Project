@@ -7,18 +7,16 @@ import { Button } from "@mui/material";
 const LoginCard = () => {
   return (
     
-    <div className=" flex flex-col relative items-center justify-center gap-5 w-full h-full  rounded p-2 lg:p-8  ">
-    <h1 className=" font-bold  text-lg ">
-      <span> </span>Brillient<span className=" text-[#ff8066]">HR</span>
+    <div className=" flex flex-col relative items-center justify-center gap-0 w-full h-full  rounded p-2 lg:p-8  ">
+    <h1 className=" font-bold  text-lg mt-5">
+      JEET KI EK RANANITI
     </h1>
     <div className=" flex flex-col items-start justify-start gap-5   w-full lg:w-[90%] p-5 h-fit ">
       <div className=" flex flex-col w-full items-center justify-center   ">
         <h1 className=" text-slate-500 font-semibold  text-lg">
           Sign In
         </h1>
-        <p className=" text-slate-400  ">
-          Please enter your detail to sign in
-        </p>
+
       </div>
 
       <form className="w-full">
@@ -95,14 +93,14 @@ const LoginCard = () => {
       </form>
 
       <div className=" flex flex-col w-full gap-2  items-center justify-between">
-        <p>
+        <p className='text-sm text-slate-600  '  >
           Don't have an account?.{" "}
-          <span className="text-blue-500 text-md font-semibold ">
+          <span className="text-blue-500 text-sm  ">
             {" "}
             Register Here{" "}
           </span>{" "}
         </p>
-        <p>OR</p>
+        <p className=' text-sm font-semibold text-slate-700'  >OR</p>
         <div className=" flex items-center justify-between w-full gap-3">
           <div className="flex items-center justify-center  h-10  w-1/3 rounded bg-blue-500 cursor-pointer  hover:shadow-md  ">
             <img
