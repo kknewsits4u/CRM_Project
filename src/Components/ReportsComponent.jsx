@@ -98,7 +98,7 @@ const ReportsComponent = () => {
             <div  className=' grid grid-cols-2 gap-2 '  >
               {
                 reportData.map((data, i)=>
-                  <div className='flex flex-col items-center justify-between p-2 border border-blue-100  w-full  h-20 rounded bg-blue-50' 
+                  <div className='flex flex-col items-center justify-between p-2 border border-blue-100  w-full  h-20 md:h-25 rounded bg-blue-50' 
                    >
                      <h1 className=' text-center text-xs font-semibold text-slate-600'  >{data.text}</h1>
                      <div className='flex items-center justify-center text-xs h-5 px-3 py-2 border border-blue-200 rounded  hover:shadow-md text-blue-400' >View </div>

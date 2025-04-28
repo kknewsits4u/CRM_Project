@@ -32,7 +32,7 @@ import SmsIcon from '@mui/icons-material/Sms';
  
 
   return (
-    <div  className='w-full h-12 md:h-15 flex items-center justify-start px-5 sticky top-0 left-0 shadow-md'  style={{
+    <div  className='w-full h-15 md:h-18 flex items-center justify-start px-5 sticky top-0 left-0 shadow-md'  style={{
       background: "#60B5FF",
       }} >
          <nav  className=' w-full h-full flex items-center justify-start gap-3' >
@@ -41,7 +41,7 @@ import SmsIcon from '@mui/icons-material/Sms';
            </div>
            <h1  className=' text-base font-bold text-white' >Home</h1>
              <Drawer open={open} onClose={toggleDrawer(false)}>
-              <div className=' w-50 flex flex-col h-full items-center justify-start gap-2 pr-1'  >
+              <div className=' w-50 md:65 flex flex-col h-full items-center justify-start gap-2 pr-1'  >
                 <div className='flex flex-col items-start justify-between w-full h-25 p-3' style={{ background:"linear-gradient(45deg , rgb(23,141,241) , rgb(255,255,255))"  }}   >
                     <div  className=' flex  items-center justify-center rounded-full  h-10 w-10 shadow-md   ' >
                        <img src="https://i.pinimg.com/736x/b1/2e/54/b12e543befe20191e6703161556378e1.jpg" alt="logoImage" className=' w-full h-full object-cover object-center rounded-full ' />
@@ -81,10 +81,10 @@ import SmsIcon from '@mui/icons-material/Sms';
                     </div>
                 </div>
                 <div  className=' w-full  flex flex-col  items-start justify-center h-fit px-3 ' >
-                    <h1 className='text-sm font-semibold text-[#102E50] border-b border-slate-200 pb-2 w-full' >
+                    <h1 className='text-sm md:text-base font-semibold text-[#102E50] border-b border-slate-200 pb-2 w-full' >
                       Reports
                     </h1>
-                    <div className=' flex w-full h-fit text-xs font-semibold text-slate-500 hover:text-slate-700  py-2'  >
+                    <div className=' flex w-full h-fit text-xs md:text-sm font-semibold text-slate-500 hover:text-slate-700  py-2'  >
                         <ul className=' flex flex-col w-fll h-fit gap-2' >
 
                          {
@@ -92,7 +92,7 @@ import SmsIcon from '@mui/icons-material/Sms';
 
                           <li key={i} className=' flex items-center justify-start gap-3 cursor-pointer py-1'  >
                              <AssessmentIcon  sx={{ fontSize:"18px", color:"#9FB3DF"  }}  />
-                            <p>{text}</p>
+                            <p  >{text}</p>
                           </li>
                             
                             )
