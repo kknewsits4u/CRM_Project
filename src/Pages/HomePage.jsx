@@ -7,7 +7,6 @@ import UpdateDataCompo from '../Components/UpdateDataCompo'
 const HomePage = () => {
   return (
       <div className='w-full flex flex-col items-center justify-start '   >
-     <Header/>
      <CandidateImage/>
      <UpdateDataCompo/>
      <ReportsComponent/>

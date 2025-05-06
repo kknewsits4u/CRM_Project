@@ -1,0 +1,1 @@
+export const apiurl = "https://crm-backend-4gr6.onrender.com"
